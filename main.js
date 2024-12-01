@@ -123,10 +123,10 @@ function mostraAlternativas() {
     }
 }
 
-function resposta Selecionada (opcaoSelecionada) { 
-    const afirmacoes opcaoSelecionada.afirmacao; 
-    historiaFinal + afirmacoes + "";
-    atual++; 
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacoes = opcaoSelecionada.afirmacao;
+    historiaFinal += afirmacoes + " ";
+    atual++;
     mostraPergunta();
 }
 
@@ -134,6 +134,11 @@ function mostraResultado() {
     caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = ""; 
+}
+
+function aleatorio (lista){
+    const posicao = Math.floor(Math.random()* lista.length);
+    return lista[posicao];
 }
 
 mostraPergunta();
