@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia"
+        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia",
         alternativas: [
             {
                 texto: "Isso é assustador!",
