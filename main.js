@@ -6,14 +6,14 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia,um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "No reino de Eryndor, onde a escuridão cresce e os demônios prosperam, um lendário caçador de demônios, Aric, é chamado para proteger o povo. Sua jornada o leva a enfrentar perigos inimagináveis, segredos sombrios e escolhas difíceis. Aric encontra um vilarejo devastado por demônios. Ele deve:",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Investigar as ruínas em busca de sobreviventes",
                 afirmacao: "afirmacao"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Seguir as pegadas deixadas pelos demônios",
                 afirmacao: "afirmacao"
             }
         ]
