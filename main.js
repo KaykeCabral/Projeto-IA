@@ -75,7 +75,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = "";
+let historiaFinal = "kkk";
 
 function mostraPergunta() {
     if (atual >= perguntas.length) {
@@ -107,7 +107,7 @@ function respostaSelecionada(opcaoSelecionada){
 function mostraResultado() {
     caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "kkk";
+    caixaAlternativas.textContent = "Independente das escolhas, Aric salva o reino de Eryndor, mas não sem consequências. Suas decisões moldaram não apenas sua jornada, mas também o destino do reino. Será ele lembrado como um herói sagrado ou como alguém que flertou com as trevas? Isso depende de você, jogador, refletir sobre suas escolhas.";
 }
 
 mostraPergunta();
