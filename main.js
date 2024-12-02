@@ -46,27 +46,27 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Ao enfrentar o líder demoníaco, Aric percebe que ele possui um amuleto. Ele decide:",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Focar em destruir o amuleto",
                 afirmacao: "afirmacao"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Concentrar seus ataques no líder",
                 afirmacao: "afirmacao"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Com a vitória próxima, Aric encontra um grimório antigo que contém um feitiço proibido. Ele:",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+                texto: "Usa o feitiço para selar os demônios para sempre",
                 afirmacao: "afirmacao"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+                texto: "Destrói o grimório, impedindo que caia em mãos erradas",
                 afirmacao: "afirmacao"
             }
         ]
