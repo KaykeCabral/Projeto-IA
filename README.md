@@ -1,1 +1,6 @@
-# Projeto-IA
+# Historia
+
+Kayke
+Yuri
+Gabriel
+Samir
